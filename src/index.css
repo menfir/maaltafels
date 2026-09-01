@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+/* Tablet: geen zoom-op-dubbeltik en geen tekstselectie bij het tikken op het numpad. */
+html {
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+  background: #f5f3ff;
+}
+
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior: none; /* geen pull-to-refresh tijdens het oefenen */
+}
